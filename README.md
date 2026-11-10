@@ -2,7 +2,7 @@
 
 Code and derived results for the Transport Findings paper by Megh Bahadur KC and Sujata Basnet: how far the spatial pattern of truck-speed changes can move modeled CRZ freight running emissions (MOVES5) when the same +5.6% average speed gain is preserved.
 
-**Citation:** KC, M. B., & Basnet, S. (2026). *Freight Emissions Sensitivity to Spatially Uneven Truck-Speed Changes in New York City's Congestion Relief Zone*. Transport Findings. DOI: to be added. Code and data: Zenodo DOI to be added.
+**Citation:** KC, M. B., & Basnet, S. (2026). *Freight Emissions Sensitivity to Spatially Uneven Truck-Speed Changes in New York City's Congestion Relief Zone*. Transport Findings. DOI: [to be added]. Code and data: DOI: 10.5281/zenodo.24099345
 
 ## Included and not included
 
