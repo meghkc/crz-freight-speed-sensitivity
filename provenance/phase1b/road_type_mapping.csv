@@ -1,0 +1,9 @@
+roadway_type,primary_roadTypeID,bridge_tunnel_sensitivity_roadTypeID,extra_class_sensitivity_roadTypeID,basis
+Street,5,5,5,User-specified fallback; assignment has no explicit access-control flag
+Highway,4,4,4,User-specified fallback; assignment has no explicit access-control flag
+Ramp,4,4,4,User-specified fallback; assignment has no explicit access-control flag
+Bridge,5,4,5,User-specified fallback; assignment has no explicit access-control flag
+Tunnel,5,4,5,User-specified fallback; assignment has no explicit access-control flag
+Unknown,5,5,4,User-specified fallback; assignment has no explicit access-control flag
+Non-Physical,5,5,4,User-specified fallback; assignment has no explicit access-control flag
+U-Turn,5,5,4,User-specified fallback; assignment has no explicit access-control flag

@@ -1,0 +1,12 @@
+{
+  "solved_faster_pct": 3.552713678800501e-15,
+  "crz_CO2_change_pct": 2.220446049250313e-16,
+  "crz_NOx_change_pct": 4.440892098500626e-16,
+  "crz_PM25_change_pct": 2.220446049250313e-16,
+  "city_CO2_change_pct": 9.71445146547012e-17,
+  "city_NOx_change_pct": 8.326672684688674e-17,
+  "city_PM25_change_pct": 9.71445146547012e-17,
+  "CO2_delta_kg": 5.684341886080802e-14,
+  "NOx_delta_kg": 8.881784197001252e-16,
+  "PM25_delta_kg": 9.71445146547012e-17
+}

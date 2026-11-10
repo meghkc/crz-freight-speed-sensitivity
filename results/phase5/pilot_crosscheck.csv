@@ -1,0 +1,17 @@
+block,item,pilot_value_pp,phase5_value_pp,abs_difference_pp,exceeds_0p002_pp,rounds_to_pilot_value,source_file
+A1,"random -20% CO2, x0.8",-0.852,-0.8518283288033752,0.00017167119662475638,False,True,a1_summary.csv
+A1,"random -20% CO2, x1.2",-0.664,-0.6643629692903048,0.000362969290304771,False,True,a1_summary.csv
+A1,"uniform CO2, x0.8",-1.597,-1.5971368412624158,0.00013684126241586547,False,True,a1_uniform.csv
+A1,"uniform CO2, x1.2",-1.229,-1.2290769448810834,7.694488108334063e-05,False,True,a1_uniform.csv
+A1,"high-VMT -20% CO2, x0.8",0.052,0.0516197536692803,0.00038024633071969544,False,True,a1_summary.csv
+A1,"high-VMT -20% CO2, x1.2",0.028,0.0278705133901433,0.00012948660985670143,False,True,a1_summary.csv
+A2,"high-VMT -20% CO2, unchanged -3%",0.202,0.2018993160676176,0.00010068393238241158,False,True,a2_summary.csv
+A2,"high-VMT -20% CO2, unchanged +3%",-0.152,-0.1520563495073966,5.6349507396608045e-05,False,True,a2_summary.csv
+A2,"random -20% CO2, unchanged -3%",-0.653,-0.6525865776586145,0.0004134223413855276,False,True,a2_summary.csv
+A2,"random -20% CO2, unchanged +3%",-0.82,-0.8198474928077296,0.0001525071922703347,False,True,a2_summary.csv
+A3,high-VMT CO2 step -15 to -20,0.563,0.563358827894657,0.00035882789465702114,False,True,a3_counterfactual_summary.csv
+A3,high-VMT CO2 no-crossing -20%,-0.213,-0.2133564881233786,0.00035648812337860103,False,True,a3_counterfactual_summary.csv
+A3,"high-VMT CO2 PCHIP -20% (500 allocations, PCHIP denominator)",-0.168,-0.1714829825597904,0.0034829825597903763,True,False,a3_pchip_summary.csv
+Allocation,max deviation faster,0.17,0.1651757576585382,0.00482424234146181,True,True,a2_allocation_diagnostics.csv
+Allocation,max deviation unchanged,0.26,0.2551252165569693,0.004874783443030717,True,True,a2_allocation_diagnostics.csv
+Allocation,max deviation slower,0.16,0.1632750691634239,0.003275069163423905,True,True,a2_allocation_diagnostics.csv

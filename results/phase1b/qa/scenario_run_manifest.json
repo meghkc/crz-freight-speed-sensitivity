@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "specifications": 9,
+  "heterogeneous_rows": 18000,
+  "replicates_per_slowdown": 500,
+  "master_seed": 20261002,
+  "allocation_sha256": "801226588fe674b92aef323fa5777d6f741a145036c19602c8173e166fd45a9e",
+  "seed_identity_verified": true,
+  "zero_change_tests_passed": true,
+  "vmt_closure_passed": true,
+  "denominators": "full-day baseline under each rate/composition specification; identical kg change numerator for CRZ and city",
+  "extrapolation_used": false,
+  "legacy_rounding": "Legacy QA uses stored baseline emissions exactly. MOVES baselines are recomputed from the same VMT and new rates; a consistent-current baseline control isolates the small saved-VMT rounding discrepancy."
+}

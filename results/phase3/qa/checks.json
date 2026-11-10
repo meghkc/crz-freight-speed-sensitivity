@@ -1,0 +1,162 @@
+[
+  {
+    "test": "Phase 1B random reference reproduced",
+    "passed": true,
+    "detail": "5.684341886080802e-14"
+  },
+  {
+    "test": "Random median 5/CO2",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 10/CO2",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 15/CO2",
+    "passed": true,
+    "detail": "-2.220446049250313e-16"
+  },
+  {
+    "test": "Random median 20/CO2",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 5/NOx",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 10/NOx",
+    "passed": true,
+    "detail": "-2.220446049250313e-16"
+  },
+  {
+    "test": "Random median 15/NOx",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 20/NOx",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 5/PM25",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 10/PM25",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 15/PM25",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Random median 20/PM25",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Physical IDs match frozen Phase 1B",
+    "passed": true,
+    "detail": "(1689, 1689)"
+  },
+  {
+    "test": "One roadway class per physical geometry",
+    "passed": true,
+    "detail": "unambiguous"
+  },
+  {
+    "test": "Physical class coverage",
+    "passed": true,
+    "detail": "{'Street': 1410, 'Ramp': 231, 'Tunnel': 24, 'Bridge': 17, 'Highway': 7}"
+  },
+  {
+    "test": "No Non-Physical placement links",
+    "passed": true,
+    "detail": "1689"
+  },
+  {
+    "test": "Scenario cells use only physical pool",
+    "passed": true,
+    "detail": "1473"
+  },
+  {
+    "test": "Frozen VMT exposure reproduced",
+    "passed": true,
+    "detail": "exact"
+  },
+  {
+    "test": "high_vmt assigns every physical segment",
+    "passed": true,
+    "detail": "(500, 1689)"
+  },
+  {
+    "test": "high_vmt slower set fixed",
+    "passed": true,
+    "detail": "139"
+  },
+  {
+    "test": "infrastructure_first assigns every physical segment",
+    "passed": true,
+    "detail": "(500, 1689)"
+  },
+  {
+    "test": "infrastructure_first slower set fixed",
+    "passed": true,
+    "detail": "343"
+  },
+  {
+    "test": "low_vmt assigns every physical segment",
+    "passed": true,
+    "detail": "(500, 1689)"
+  },
+  {
+    "test": "low_vmt slower set fixed",
+    "passed": true,
+    "detail": "681"
+  },
+  {
+    "test": "All structured realization counts",
+    "passed": true,
+    "detail": "18000"
+  },
+  {
+    "test": "Aggregate +5.6% constraint",
+    "passed": true,
+    "detail": "9.414691248821327e-14"
+  },
+  {
+    "test": "VMT closure",
+    "passed": true,
+    "detail": "2.546585164964199e-11"
+  },
+  {
+    "test": "Emissions closure",
+    "passed": true,
+    "detail": "2.3874235921539366e-12"
+  },
+  {
+    "test": "No MOVES extrapolation",
+    "passed": true,
+    "detail": "(np.float64(6.4), np.float64(67.03431209426881))"
+  },
+  {
+    "test": "Same frozen denominators",
+    "passed": true,
+    "detail": "unchanged"
+  },
+  {
+    "test": "Source files unchanged",
+    "passed": true,
+    "detail": "993"
+  }
+]

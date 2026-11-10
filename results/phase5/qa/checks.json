@@ -1,0 +1,324 @@
+{
+  "passed": true,
+  "n_checks": 53,
+  "checks": [
+    {
+      "stage": "step0",
+      "test": "Gain formula reproduces legacy solved_faster_pct (random)",
+      "passed": true,
+      "detail": "max abs diff 3.908e-14 pp"
+    },
+    {
+      "stage": "step0",
+      "test": "Gain formula reproduces saved gains (all designs)",
+      "passed": true,
+      "detail": "max abs diff 9.237e-14 pp"
+    },
+    {
+      "stage": "step0",
+      "test": "+5.6% closure on frozen allocations",
+      "passed": true,
+      "detail": "8.438e-14 pp"
+    },
+    {
+      "stage": "step0",
+      "test": "All Step 0 comparisons within tolerance",
+      "passed": true,
+      "detail": "85 comparisons; max diff vs saved files 2.956e-12"
+    },
+    {
+      "stage": "step0",
+      "test": "Zero-change test",
+      "passed": true,
+      "detail": "base profile"
+    },
+    {
+      "stage": "step0",
+      "test": "Cell-level evaluator equals frozen run_one",
+      "passed": true,
+      "detail": "max abs diff 6.708e-12 kg/day"
+    },
+    {
+      "stage": "step0",
+      "test": "linear_rates equals engine.interpolate",
+      "passed": true,
+      "detail": "spot speeds"
+    },
+    {
+      "stage": "a1",
+      "test": "base_x1.0: baseline rebuilt at scaled speeds",
+      "passed": true,
+      "detail": "Street speeds [np.float64(10.0), np.float64(12.0), np.float64(18.0)]"
+    },
+    {
+      "stage": "a1",
+      "test": "base_x1.0: night and non-Street speeds unchanged",
+      "passed": true,
+      "detail": "16 night rows, 42 other rows"
+    },
+    {
+      "stage": "a1",
+      "test": "base_x1.0: zero-change test",
+      "passed": true,
+      "detail": "kg/day delta is zero"
+    },
+    {
+      "stage": "a1",
+      "test": "base_x1.0: +5.6% closure",
+      "passed": true,
+      "detail": "8.438e-14 pp"
+    },
+    {
+      "stage": "a1",
+      "test": "base_x1.0: VMT closure",
+      "passed": true,
+      "detail": "2.910e-11 VMT"
+    },
+    {
+      "stage": "a1",
+      "test": "base_x1.0: no clipping or extrapolation",
+      "passed": true,
+      "detail": "speed range 6.400-67.034 mph"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x0.8: baseline rebuilt at scaled speeds",
+      "passed": true,
+      "detail": "Street speeds [np.float64(8.0), np.float64(9.600000000000001), np.float64(14.4)]"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x0.8: night and non-Street speeds unchanged",
+      "passed": true,
+      "detail": "16 night rows, 42 other rows"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x0.8: zero-change test",
+      "passed": true,
+      "detail": "kg/day delta is zero"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x0.8: +5.6% closure",
+      "passed": true,
+      "detail": "6.217e-14 pp"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x0.8: VMT closure",
+      "passed": true,
+      "detail": "2.910e-11 VMT"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x0.8: no clipping or extrapolation",
+      "passed": true,
+      "detail": "speed range 6.400-66.861 mph"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x1.2: baseline rebuilt at scaled speeds",
+      "passed": true,
+      "detail": "Street speeds [np.float64(12.0), np.float64(14.399999999999999), np.float64(21.599999999999998)]"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x1.2: night and non-Street speeds unchanged",
+      "passed": true,
+      "detail": "16 night rows, 42 other rows"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x1.2: zero-change test",
+      "passed": true,
+      "detail": "kg/day delta is zero"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x1.2: +5.6% closure",
+      "passed": true,
+      "detail": "8.438e-14 pp"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x1.2: VMT closure",
+      "passed": true,
+      "detail": "2.910e-11 VMT"
+    },
+    {
+      "stage": "a1",
+      "test": "street_x1.2: no clipping or extrapolation",
+      "passed": true,
+      "detail": "speed range 6.400-67.152 mph"
+    },
+    {
+      "stage": "a1",
+      "test": "Base control equals Phase 3 medians",
+      "passed": true,
+      "detail": "max abs diff 3.1086244689504383e-15"
+    },
+    {
+      "stage": "a2",
+      "test": "Zero-change test",
+      "passed": true,
+      "detail": "kg/day delta is zero"
+    },
+    {
+      "stage": "a2",
+      "test": "+5.6% closure including unchanged term",
+      "passed": true,
+      "detail": "8.438e-14 pp"
+    },
+    {
+      "stage": "a2",
+      "test": "VMT closure",
+      "passed": true,
+      "detail": "scenario VMT equals analysis VMT"
+    },
+    {
+      "stage": "a2",
+      "test": "No clipping or extrapolation",
+      "passed": true,
+      "detail": "speed range 6.400-68.977 mph"
+    },
+    {
+      "stage": "a2",
+      "test": "Zero-unchanged control equals submitted medians",
+      "passed": true,
+      "detail": "max abs diff 8.438e-15 pp"
+    },
+    {
+      "stage": "a2",
+      "test": "Physical index is positional",
+      "passed": true,
+      "detail": "1689"
+    },
+    {
+      "stage": "a2",
+      "test": "Written algorithm regenerates the frozen allocations",
+      "passed": true,
+      "detail": "2000 of 2000 allocations regenerated exactly from their seeds"
+    },
+    {
+      "stage": "a3",
+      "test": "Decomposition closes to net",
+      "passed": true,
+      "detail": "1.496e-11 kg/day"
+    },
+    {
+      "stage": "a3",
+      "test": "Group medians match Phase 2R and Phase 3",
+      "passed": true,
+      "detail": "max abs diff 1.251e-12 kg/day"
+    },
+    {
+      "stage": "a3",
+      "test": "Counterfactual leaves cells that stay in their bin unchanged",
+      "passed": true,
+      "detail": "0.000e+00 g/mile"
+    },
+    {
+      "stage": "a3",
+      "test": "Counterfactual evaluated only at -20% with unchanged VMT",
+      "passed": true,
+      "detail": "3000 rows"
+    },
+    {
+      "stage": "a3",
+      "test": "PCHIP passes through all bin centers",
+      "passed": true,
+      "detail": "16 bins, all curves"
+    },
+    {
+      "stage": "a3",
+      "test": "PCHIP fast evaluator equals scipy",
+      "passed": true,
+      "detail": "4.547e-13"
+    },
+    {
+      "stage": "a3",
+      "test": "PCHIP zero-change test",
+      "passed": true,
+      "detail": "kg/day delta is zero"
+    },
+    {
+      "stage": "a3",
+      "test": "PCHIP +5.6% closure",
+      "passed": true,
+      "detail": "7.105e-14 pp"
+    },
+    {
+      "stage": "a3",
+      "test": "PCHIP no clipping",
+      "passed": true,
+      "detail": "8.000-67.034 mph"
+    },
+    {
+      "stage": "a3",
+      "test": "PCHIP VMT closure",
+      "passed": true,
+      "detail": "scenario VMT equals analysis VMT"
+    },
+    {
+      "stage": "a4",
+      "test": "CO2 full-day CRZ baseline",
+      "passed": true,
+      "detail": "70880.1818 kg/day"
+    },
+    {
+      "stage": "a4",
+      "test": "NOx full-day CRZ baseline",
+      "passed": true,
+      "detail": "205.5840 kg/day"
+    },
+    {
+      "stage": "a4",
+      "test": "PM25 full-day CRZ baseline",
+      "passed": true,
+      "detail": "3.0244 kg/day"
+    },
+    {
+      "stage": "a4",
+      "test": "Absolute and percentage quantiles are the same replicates",
+      "passed": true,
+      "detail": "max abs diff 3.109e-15 pp"
+    },
+    {
+      "stage": "crosscheck",
+      "test": "PCHIP pilot conditions reproduce the pilot value",
+      "passed": true,
+      "detail": "first 100 allocations, linear denominator: -0.168025"
+    },
+    {
+      "stage": "crosscheck",
+      "test": "Every pilot difference above 0.002 pp is explained",
+      "passed": true,
+      "detail": "4 flagged: high-VMT CO2 PCHIP -20% (500 allocations, PCHIP denominator); max deviation faster; max deviation unchanged; max deviation slower"
+    },
+    {
+      "stage": "final",
+      "test": "Every CSV has units in its headers",
+      "passed": true,
+      "detail": "all numeric columns carry a unit token"
+    },
+    {
+      "stage": "final",
+      "test": "Seeds recorded for every replicate",
+      "passed": true,
+      "detail": "allocation seeds in all replicate files; A2 draw seed 20261104"
+    },
+    {
+      "stage": "final",
+      "test": "x0.7 profile not run",
+      "passed": true,
+      "detail": "--include-x07 flag available, not used"
+    },
+    {
+      "stage": "final",
+      "test": "Frozen inputs unchanged (SHA-256)",
+      "passed": true,
+      "detail": "3044 files; changed 0, removed 0, added 0"
+    }
+  ]
+}

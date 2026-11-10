@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "units": "g/mile",
+  "rows": 4032,
+  "temporal_weighting_sha256": "16cdb89cddf2f219bdd593713e02712022b163a8ccde856faf985fdb410e311b",
+  "source_weight_sha256": "a68c522f86f824807118292efd242f2ed271fe13a09d0cdee671bdd6ddcfc883",
+  "phase1a_window_source_sha256": "4fd4d6e4e52d394196847d3e73f9eb406b1945ac39c90d34634dcd298b1f93c6",
+  "full_day_source_sha256": "b1a9ffe6a6c2b2ae6c38b381a7b581ccd8654c6965d065c9b80bfb77c3cf896c",
+  "window_source": "unchanged Phase 1A full run, 08:00-18:00",
+  "full_day_source": "matched supplemental full-day run; daytime overlap audited",
+  "method": "blend diesel source types within each month/hour/road cell, then weekday-calendar/equal-hour aggregation"
+}

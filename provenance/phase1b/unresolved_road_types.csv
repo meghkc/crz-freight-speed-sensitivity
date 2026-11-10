@@ -1,0 +1,13 @@
+roadway_type,period,city_vmt,crz_vmt,analysis_vmt
+Non-Physical,am_peak,6.359999999999999,0.0,0.0
+Non-Physical,midday,10.44,0.0,0.0
+Non-Physical,night,5.99,0.0,0.0
+Non-Physical,pm_peak,1.96,0.0,0.0
+U-Turn,am_peak,5.930000000000001,0.0,0.0
+U-Turn,midday,9.75,0.0,0.0
+U-Turn,night,5.49,0.0,0.0
+U-Turn,pm_peak,1.87,0.0,0.0
+Unknown,am_peak,86.18,0.0,0.0
+Unknown,midday,141.45,0.0,0.0
+Unknown,night,80.71,0.0,0.0
+Unknown,pm_peak,26.8,0.0,0.0

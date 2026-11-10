@@ -1,0 +1,13 @@
+Copyright (c) 2026 Megh Bahadur KC and Sujata Basnet
+
+The data files in the results/ and rates/ folders of this repository, and the
+derived provenance files in provenance/, are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+The MOVES5 default input tables in provenance/phase1a/input_snapshot/ were
+exported from the U.S. EPA MOVES5 default database and are included for
+provenance. The source code is under the MIT License (see LICENSE). Neither
+license covers the excluded inputs described in README.md.

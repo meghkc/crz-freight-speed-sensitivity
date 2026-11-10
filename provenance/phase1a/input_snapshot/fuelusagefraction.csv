@@ -1,0 +1,8 @@
+countyID,fuelYearID,modelYearGroupID,sourceBinFuelTypeID,fuelSupplyFuelTypeID,usageFraction
+36061,2025,0,1,1,1.0
+36061,2025,0,2,2,1.0
+36061,2025,0,3,3,1.0
+36061,2025,0,4,4,1.0
+36061,2025,0,5,1,0.969
+36061,2025,0,5,5,0.031
+36061,2025,0,9,9,1.0

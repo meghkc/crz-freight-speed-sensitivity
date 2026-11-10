@@ -1,0 +1,5 @@
+condition,n_allocations,co2_crz_change_pct_p50
+full_run_500_allocations_pchip_denominator,500,-0.17148298255979047
+first_100_allocations_pchip_denominator,100,-0.16899165566110347
+first_100_allocations_linear_denominator,100,-0.16802461080110548
+all_500_allocations_linear_denominator,500,-0.17050168122740916

@@ -1,0 +1,107 @@
+[
+  {
+    "test": "Parquet row groups",
+    "passed": true,
+    "detail": "2000"
+  },
+  {
+    "test": "Persisted raw_formula",
+    "passed": true,
+    "detail": "0.0"
+  },
+  {
+    "test": "Persisted signed_sum",
+    "passed": true,
+    "detail": "5.684341886080802e-14"
+  },
+  {
+    "test": "Persisted absolute_sum",
+    "passed": true,
+    "detail": "4.547473508864641e-13"
+  },
+  {
+    "test": "Persisted speed_constraint",
+    "passed": true,
+    "detail": "2.7533531010703882e-14"
+  },
+  {
+    "test": "No ambiguous exact-60 cells",
+    "passed": true,
+    "detail": "0"
+  },
+  {
+    "test": "scenario_speed_bin complete unique Cartesian rows",
+    "passed": true,
+    "detail": "54000"
+  },
+  {
+    "test": "baseline_speed_bin complete unique Cartesian rows",
+    "passed": true,
+    "detail": "54000"
+  },
+  {
+    "test": "roadway_class complete unique Cartesian rows",
+    "passed": true,
+    "detail": "36000"
+  },
+  {
+    "test": "response_group complete unique Cartesian rows",
+    "passed": true,
+    "detail": "18000"
+  },
+  {
+    "test": "modeled_period complete unique Cartesian rows",
+    "passed": true,
+    "detail": "18000"
+  },
+  {
+    "test": "Explicit zero-exposure emissions",
+    "passed": true,
+    "detail": "36234"
+  },
+  {
+    "test": "roadway_period_attenuation_replicates.csv complete unique rows",
+    "passed": true,
+    "detail": "108000"
+  },
+  {
+    "test": "roadway_period_attenuation_replicates.csv category-net absolute definition",
+    "passed": true,
+    "detail": "abs(sum) separately retained"
+  },
+  {
+    "test": "roadway_period_attenuation_replicates.csv absolute shares in range",
+    "passed": true,
+    "detail": "checked every row"
+  },
+  {
+    "test": "roadway_period_response_attenuation_replicates.csv complete unique rows",
+    "passed": true,
+    "detail": "324000"
+  },
+  {
+    "test": "roadway_period_response_attenuation_replicates.csv category-net absolute definition",
+    "passed": true,
+    "detail": "abs(sum) separately retained"
+  },
+  {
+    "test": "roadway_period_response_attenuation_replicates.csv absolute shares in range",
+    "passed": true,
+    "detail": "checked every row"
+  },
+  {
+    "test": "attenuation_gap_combined_replicates.csv complete unique rows",
+    "passed": true,
+    "detail": "54000"
+  },
+  {
+    "test": "attenuation_gap_combined_replicates.csv category-net absolute definition",
+    "passed": true,
+    "detail": "abs(sum) separately retained"
+  },
+  {
+    "test": "attenuation_gap_combined_replicates.csv absolute shares in range",
+    "passed": true,
+    "detail": "checked every row"
+  }
+]

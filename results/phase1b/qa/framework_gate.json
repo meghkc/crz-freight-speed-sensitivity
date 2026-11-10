@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "max_abs_error": 3.461231301571388e-12,
+  "tolerance": 1e-08,
+  "paired_allocation_sha256": "801226588fe674b92aef323fa5777d6f741a145036c19602c8173e166fd45a9e",
+  "rows": 2000,
+  "ev_fractions": {
+    "SU": 0.02,
+    "CT": 0.005
+  }
+}

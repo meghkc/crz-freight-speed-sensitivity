@@ -1,0 +1,23 @@
+{
+  "phase3_master_seed": 20261003,
+  "target_length_shares": {
+    "faster": 0.37373737373737376,
+    "unchanged": 0.46464646464646464,
+    "slower": 0.16161616161616163
+  },
+  "physical_segments": 1689,
+  "total_physical_length_feet": 306943.6235089288,
+  "analysis_window_vmt": 30285.969118816167,
+  "max_slower_length_share_deviation": 0.00039926056611722105,
+  "phase1b_reproduction_max_abs_error": 5.684341886080802e-14,
+  "allocation_sha256": "390586d67b3768a4bf10d6c1acd61fd4b941a1712c68401bc66bcf1a9ccd3c62",
+  "frozen_phase1b_allocation_sha256": "801226588fe674b92aef323fa5777d6f741a145036c19602c8173e166fd45a9e",
+  "rate_surface_sha256": "e866c5cc2d040a3f09f4b750467f102d5ba8b9f289ae3adc73a5a3545a66c205",
+  "full_day_denominator_source": "Frozen Phase 1B state using the matched full-day MOVES composite surface",
+  "scenario_counts": {
+    "designs": 3,
+    "realizations_per_design": 500,
+    "slowdowns": 4,
+    "pollutants": 3
+  }
+}

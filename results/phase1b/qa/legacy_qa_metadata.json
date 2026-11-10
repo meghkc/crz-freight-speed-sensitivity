@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "master_seed": 20261002,
+  "replicates_per_slowdown": 500,
+  "ev_fractions": {
+    "SU": 0.02,
+    "CT": 0.005
+  },
+  "raw_rows": 411548,
+  "scenario_cells": 8222,
+  "legacy_cells": 8222,
+  "physical_segments": 1689,
+  "bridge_tunnel_analysis_vmt_share": 0.006808050962786252,
+  "legacy_max_abs_error": 3.552713678800501e-15,
+  "speed_constraint_relative_error": 2.655393513722404e-16,
+  "physical_periods_with_multiple_speeds": 0,
+  "coverage": {
+    "am_peak": 0.3333333333333333,
+    "midday": 1.0,
+    "pm_peak": 0.6666666666666666,
+    "night": 0.0
+  },
+  "legacy_denominator": "full-day CRZ and city emissions, while changes affect only selected daytime activity"
+}

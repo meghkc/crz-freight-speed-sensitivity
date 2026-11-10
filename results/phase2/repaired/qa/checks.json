@@ -1,0 +1,257 @@
+[
+  {
+    "test": "Frozen allocation digest",
+    "passed": true,
+    "detail": "801226588fe674b92aef323fa5777d6f741a145036c19602c8173e166fd45a9e"
+  },
+  {
+    "test": "Frozen master seed",
+    "passed": true,
+    "detail": "20261002"
+  },
+  {
+    "test": "Saved counts",
+    "passed": true,
+    "detail": "{5.0: 500, 10.0: 500, 15.0: 500, 20.0: 500}"
+  },
+  {
+    "test": "Saved seed identity",
+    "passed": true,
+    "detail": "(4, 500)"
+  },
+  {
+    "test": "Saved slowdown levels",
+    "passed": true,
+    "detail": "[ 5. 10. 15. 20.]"
+  },
+  {
+    "test": "A Phase 1B all-replicate reproduction",
+    "passed": true,
+    "detail": "{'solved_faster_pct': 3.552713678800501e-15, 'crz_CO2_change_pct': 2.220446049250313e-16, 'crz_NOx_change_pct': 4.440892098500626e-16, 'crz_PM25_change_pct': 2.220446049250313e-16, 'city_CO2_change_pct': 9.71445146547012e-17, 'city_NOx_change_pct': 8.326672684688674e-17, 'city_PM25_change_pct': 9.71445146547012e-17, 'CO2_delta_kg': 5.684341886080802e-14, 'NOx_delta_kg': 8.881784197001252e-16, 'PM25_delta_kg': 9.71445146547012e-17}"
+  },
+  {
+    "test": "Phase 1B uniform reproduction",
+    "passed": true,
+    "detail": "8.881784197001252e-16"
+  },
+  {
+    "test": "Same uniform benchmark for flat test",
+    "passed": true,
+    "detail": "[-8.28269954e+02 -4.71256015e+00 -4.92591531e-02]"
+  },
+  {
+    "test": "Baseline <=50 mph for hard-cap audit",
+    "passed": true,
+    "detail": "45.0"
+  },
+  {
+    "test": "I hard-cap mean-speed constraint",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.5010215292932116e-13, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "Hard-cap maximum speed",
+    "passed": true,
+    "detail": "{'max_abs_error': 0, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "Cell reconstruction saved heterogeneous delta",
+    "passed": true,
+    "detail": "{'max_abs_error': 2.9558577807620168e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "Cell reconstruction saved attenuation gap",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.9326762412674725e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "scenario_speed_bin signed closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 4.376943252282217e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "scenario_speed_bin cell-absolute closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 8.185452315956354e-12, 'max_allowed_tolerance': np.float64(1.278709574834063e-10)}"
+  },
+  {
+    "test": "scenario_speed_bin VMT closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.5643308870494366e-10, 'max_allowed_tolerance': np.float64(1.721558028226364e-09)}"
+  },
+  {
+    "test": "scenario_speed_bin response-delta closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 4.320099833421409e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "baseline_speed_bin signed closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.7053025658242404e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "baseline_speed_bin cell-absolute closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 9.094947017729282e-12, 'max_allowed_tolerance': np.float64(1.278709574834063e-10)}"
+  },
+  {
+    "test": "baseline_speed_bin VMT closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 7.639755494892597e-11, 'max_allowed_tolerance': np.float64(1.721558028226364e-09)}"
+  },
+  {
+    "test": "baseline_speed_bin response-delta closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 4.661160346586257e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "roadway_class signed closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 3.0127011996228248e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "roadway_class cell-absolute closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.9554136088117957e-11, 'max_allowed_tolerance': np.float64(1.278709574834063e-10)}"
+  },
+  {
+    "test": "roadway_class VMT closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.2369127944111824e-10, 'max_allowed_tolerance': np.float64(1.721558028226364e-09)}"
+  },
+  {
+    "test": "roadway_class response-delta closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 6.707523425575346e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "response_group signed closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 6.87805368215777e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "response_group cell-absolute closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 6.366462912410498e-12, 'max_allowed_tolerance': np.float64(1.278709574834063e-10)}"
+  },
+  {
+    "test": "response_group VMT closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.8917489796876907e-10, 'max_allowed_tolerance': np.float64(1.721558028226364e-09)}"
+  },
+  {
+    "test": "response_group response-delta closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 9.208633855450898e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "modeled_period signed closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 1.1368683772161603e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "modeled_period cell-absolute closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 9.549694368615746e-12, 'max_allowed_tolerance': np.float64(1.278709574834063e-10)}"
+  },
+  {
+    "test": "modeled_period VMT closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 4.3655745685100555e-11, 'max_allowed_tolerance': np.float64(1.721558028226364e-09)}"
+  },
+  {
+    "test": "modeled_period response-delta closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 3.637978807091713e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "Joint attribution signed closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 3.524291969370097e-12, 'max_allowed_tolerance': 1e-10}"
+  },
+  {
+    "test": "Joint attribution cell-absolute closure",
+    "passed": true,
+    "detail": "{'max_abs_error': 9.322320693172514e-12, 'max_allowed_tolerance': np.float64(1.278709574834063e-10)}"
+  },
+  {
+    "test": "Raw master row count",
+    "passed": true,
+    "detail": "49332000"
+  },
+  {
+    "test": "primary_repaired_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "attenuation_gap_category_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "attenuation_gap_combined_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "roadway_period_attenuation_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "roadway_period_response_attenuation_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "roadway_period_truck_attenuation_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "H flat primary reference exact",
+    "passed": true,
+    "detail": "6000"
+  },
+  {
+    "test": "rate_flat_above_50_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "hard_50mph_speed_cap_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "Existing hard-cap feasibility reproduced",
+    "passed": true,
+    "detail": "6000"
+  },
+  {
+    "test": "Existing hard-cap results reproduced",
+    "passed": true,
+    "detail": "2.7977620220553945e-14"
+  },
+  {
+    "test": "response_group_summary.csv replicate counts",
+    "passed": true,
+    "detail": "[500]"
+  },
+  {
+    "test": "Existing J10/J20 reproduced",
+    "passed": true,
+    "detail": "36"
+  },
+  {
+    "test": "Source files unchanged",
+    "passed": true,
+    "detail": "111"
+  },
+  {
+    "test": "K frozen allocations unchanged",
+    "passed": true,
+    "detail": "801226588fe674b92aef323fa5777d6f741a145036c19602c8173e166fd45a9e"
+  }
+]

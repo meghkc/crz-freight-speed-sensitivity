@@ -1,0 +1,8 @@
+# Python 3.14 (analysis run with 3.14.6). Versions are those used to produce the results.
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.16.3
+matplotlib==3.10.8
+shapely==2.1.2
+# Only for code/phase2/repair_exports.py and audit_exports.py (cell-level Parquet export):
+# pyarrow==25.0.1

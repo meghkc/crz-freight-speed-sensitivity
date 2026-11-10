@@ -1,0 +1,20 @@
+# Excluded inputs (proprietary assignment and files derived from it). Never commit.
+inputs/*
+!inputs/README.md
+*.npz
+*.parquet
+results/phase1b/qa/scenario_cells.csv
+results/phase1b/qa/physical_segments.csv
+results/phase1b/qa/baseline_activity.csv
+results/phase1b/qa/legacy_replicates.csv
+provenance/phase3/physical_segment_eligibility.csv
+provenance/phase2/physical_segment_index.csv
+# Rerun by-products
+results/phase5/qa/checks_*.json
+results/figures_tables/Figure*.png
+results/figures_tables/Figure*.pdf
+results/figures_tables/Figure*.jpeg
+__pycache__/
+*.pyc
+*.log
+.venv/

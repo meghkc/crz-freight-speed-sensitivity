@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "database": "phase1b_nyc2025_full_activity_output_20261002",
+  "moves_run_id": 1,
+  "raw_sha256": "0f48363850c348763df00a36fdd3093962d19ea8cee506874e79333408953673",
+  "diesel_weight_rows": 1920,
+  "weekdays": {
+    "1": 23,
+    "2": 20,
+    "3": 21,
+    "4": 22,
+    "5": 22,
+    "6": 21,
+    "7": 23,
+    "8": 21,
+    "9": 22,
+    "10": 23
+  },
+  "weekday_total": 218,
+  "origin": "EPA national-default fleet/activity normalized within a New York County-configured MOVES run; not measured local composition",
+  "units": "miles; weights are dimensionless within identical month/hour/road/truck-class cells"
+}

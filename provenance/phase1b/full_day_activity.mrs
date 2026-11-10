@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<runspec version="MOVES5.0.1">
+  <description>Phase 1B full-day activity; same EPA inputs as Phase 1A; national default activity normalization, not measured local inventory.</description>
+  <models>
+    <model value="ONROAD" />
+  </models>
+  <modelscale value="Inventory" />
+  <modeldomain value="SINGLE" />
+  <geographicselections>
+    <geographicselection type="COUNTY" key="36061" description="NEW YORK - New York County" />
+  </geographicselections>
+  <timespan>
+    <year key="2025" />
+    <month id="1" />
+    <month id="2" />
+    <month id="3" />
+    <month id="4" />
+    <month id="5" />
+    <month id="6" />
+    <month id="7" />
+    <month id="8" />
+    <month id="9" />
+    <month id="10" />
+    <day id="5" />
+    <beginhour id="1" />
+    <endhour id="24" />
+    <aggregateBy key="Hour" />
+  </timespan>
+  <onroadvehicleselections>
+    <onroadvehicleselection fueltypeid="2" fueltypedesc="Diesel Fuel" sourcetypeid="52" sourcetypename="Single Unit Short-haul Truck" />
+    <onroadvehicleselection fueltypeid="2" fueltypedesc="Diesel Fuel" sourcetypeid="53" sourcetypename="Single Unit Long-haul Truck" />
+    <onroadvehicleselection fueltypeid="2" fueltypedesc="Diesel Fuel" sourcetypeid="61" sourcetypename="Combination Short-haul Truck" />
+    <onroadvehicleselection fueltypeid="2" fueltypedesc="Diesel Fuel" sourcetypeid="62" sourcetypename="Combination Long-haul Truck" />
+  </onroadvehicleselections>
+  <roadtypes>
+    <roadtype roadtypeid="1" roadtypename="Off-Network" modelCombination="M1" />
+    <roadtype roadtypeid="2" roadtypename="Rural Restricted Access" modelCombination="M1" />
+    <roadtype roadtypeid="3" roadtypename="Rural Unrestricted Access" modelCombination="M1" />
+    <roadtype roadtypeid="4" roadtypename="Urban Restricted Access" modelCombination="M1" />
+    <roadtype roadtypeid="5" roadtypename="Urban Unrestricted Access" modelCombination="M1" />
+  </roadtypes>
+  <pollutantprocessassociations>
+    <pollutantprocessassociation pollutantkey="3" pollutantname="Oxides of Nitrogen (NOx)" processkey="1" processname="Running Exhaust" />
+  </pollutantprocessassociations>
+  <inputdatabase servername="localhost" databasename="movesdb20241112" description="EPA installed default database" />
+  <scaleinputdatabase servername="localhost" databasename="phase1b_nyc2025_full_activity_input_20261002" description="Documented EPA default benchmark inputs" />
+  <geographicoutputdetail description="COUNTY" />
+  <outputemissionsbreakdownselection>
+    <modelyear selected="false" />
+    <fueltype selected="true" />
+    <fuelsubtype selected="false" />
+    <emissionprocess selected="true" />
+    <onroadoffroad selected="false" />
+    <roadtype selected="true" />
+    <sourceusetype selected="true" />
+    <movesvehicletype selected="false" />
+    <onroadscc selected="false" />
+    <estimateuncertainty selected="false" />
+    <sector selected="false" />
+    <engtechid selected="false" />
+    <hpclass selected="false" />
+    <regclassid selected="false" />
+  </outputemissionsbreakdownselection>
+  <outputdatabase servername="localhost" databasename="phase1b_nyc2025_full_activity_output_20261002" description="Phase 1A benchmark" />
+  <outputtimestep value="Hour" />
+  <outputvmtdata value="true" />
+  <outputfactors>
+    <timefactors selected="true" units="Hours" />
+    <distancefactors selected="true" units="Miles" />
+    <massfactors selected="true" units="Grams" energyunits="Joules" />
+  </outputfactors>
+</runspec>

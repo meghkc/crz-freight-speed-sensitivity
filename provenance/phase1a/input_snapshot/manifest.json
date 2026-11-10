@@ -1,0 +1,81 @@
+{
+  "database": "phase1a_nyc2025_input_20261002",
+  "tables": {
+    "year": {
+      "rows": 1,
+      "sha256": "4c0559e134f19becc789fd7b44c323e10f163814d0fe90badabc5dafa117be5e"
+    },
+    "state": {
+      "rows": 1,
+      "sha256": "9ff070ac907f3bed3a60212b131d293d8714ec63d5061670246d03b1cb3ef9fc"
+    },
+    "county": {
+      "rows": 1,
+      "sha256": "e75b725cc010af913707e822ef1a1877f4f12a4f3e673619fe12d690e7760259"
+    },
+    "zone": {
+      "rows": 1,
+      "sha256": "ed249c27313ac1f15603a487d962540f1e2b924f37a5a9352c22d7c7bd56c9c5"
+    },
+    "zoneroadtype": {
+      "rows": 4,
+      "sha256": "0e9b4b6286ac38dbf48d74d45f52e8b868c9be972854d13d2e9e6b3631fb23d8"
+    },
+    "zonemonthhour": {
+      "rows": 288,
+      "sha256": "909fb9f91d8acedd959ba823a126bc161fe794a4627f22a00a81b2da84c1662a"
+    },
+    "sourcetypeyear": {
+      "rows": 13,
+      "sha256": "5e3315c5e86d51d3af30ea1a62b7f0cdaca36bcb8fa55de59c4981a32fa55d5c"
+    },
+    "sourcetypeagedistribution": {
+      "rows": 164,
+      "sha256": "80da8232919a4d83e71ca2643ec09b1b1b9ded75caf780e8a7d6c0f1098ed821"
+    },
+    "hpmsvtypeyear": {
+      "rows": 2,
+      "sha256": "3e1e7793baf2593ca58251d397b8caa179ed18da71fe90ec8d752d5273390066"
+    },
+    "roadtypedistribution": {
+      "rows": 20,
+      "sha256": "59402bacaa484fb7f9b7b5c2d484d2b36582f01eedbe700f24ccdd1e6b474b72"
+    },
+    "avgspeeddistribution": {
+      "rows": 12288,
+      "sha256": "3ae49a12d5748f4271c7fe7eb6e2d1f88e27d8e21140e623f24e30c9c8b5a3cf"
+    },
+    "monthvmtfraction": {
+      "rows": 156,
+      "sha256": "3c3e08b7d7ab0a168e5ea5152bec352d7d183cb8c9a2c08ad54a5fbe547ff2fa"
+    },
+    "dayvmtfraction": {
+      "rows": 1872,
+      "sha256": "4505f1784cfe2fc65720b0cbe076e3920b53ae54956ac59e27bebb43da29c830"
+    },
+    "hourvmtfraction": {
+      "rows": 3744,
+      "sha256": "081b00194a9fbc16a0a895dcf5c63971090959595e83630dd1a9c5f25e46fa7c"
+    },
+    "imcoverage": {
+      "rows": 54,
+      "sha256": "25370ad1bc9010f60b9d6b3943779aa6adf6367949aa17cb86f59e754baeadf9"
+    },
+    "fuelsupply": {
+      "rows": 72,
+      "sha256": "62434e4ee91c697ec38c6c4fda86c49c4013b41ae3131091631c147cc3d6aa5b"
+    },
+    "fuelformulation": {
+      "rows": 12,
+      "sha256": "3d5035866f3a720d38075623fe2304cc39a796920eb9c5d042cbeef501ecf796"
+    },
+    "fuelusagefraction": {
+      "rows": 7,
+      "sha256": "a04a616558b06ba4193021c35a379fbd4d6b3127a2b6acfb361ff669f49599a7"
+    },
+    "avft": {
+      "rows": 2109,
+      "sha256": "162e6c4727c2f67f20cb45ec3dda8b9897fb95a5c17cfa97610d87e899156827"
+    }
+  }
+}
